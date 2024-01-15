@@ -1,6 +1,6 @@
 blueprint:
-  name: Paralelo Virtual
-  description: Acenda/Apaga todos os switchs/lights do grupo simultaneamente
+  name: Paralelo Virtual GAMETAS
+  description: Liga/Desliga todos os switchs/lights/fans do grupo simultaneamente
   domain: automation
   input:
     entrada_switchs:
@@ -10,6 +10,7 @@ blueprint:
               domain:
                 - switch
                 - light
+                - fan
               multiple: true
 
 trigger:
