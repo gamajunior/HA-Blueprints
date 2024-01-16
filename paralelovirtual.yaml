@@ -4,7 +4,7 @@ blueprint:
   domain: automation
   input:
     entrada_switchs:
-      name: Escolha os pontos de Iluminação
+      name: Escolha os switchs/lights/fans
       selector:
             entity:
               domain:
@@ -30,7 +30,7 @@ action:
   - delay:
       hours: 0
       minutes: 0
-      seconds: 2
+      seconds: 3
       milliseconds: 0
 
 mode: single
